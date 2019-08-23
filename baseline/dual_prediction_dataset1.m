@@ -105,7 +105,7 @@ transmit_precentage = 100 - saving_perecentage
 % set(gca,'YTick',(16:2:26));
 % 
 % xlabel('samples'),
-% ylabel('temperature [°c]');
+% ylabel('temperature [Â°c]');
 
 %% plot x and y 
 results_directory ='plot_results/case_I/';
@@ -145,7 +145,7 @@ plot(1:len_x, err,'ro', 'LineWidth',3)
 
 legend('real data', 'filter output')
 xlabel('samples'),
-%ylabel('temperature [°c]');
+%ylabel('temperature [Â°c]');
 ylabel('humidity [%]');
 
 % to create a pdf with no extra whitespaces
@@ -194,7 +194,7 @@ plot(1:len_x, err,'ro', 'LineWidth',3)
 
 grid on,
 xlabel('samples'),
-%ylabel('prediction error [°c]');
+%ylabel('prediction error [Â°c]');
 ylabel('prediction error [%]');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -213,10 +213,3 @@ print(fig, strcat(results_directory,'baseline_mote30_error'),'-dpdf')
 
 %sum(~isnan(err(1000:2000))) % count number of transmssion between two time
 %instances, so count non nan values between 1000 and 2000
-
-
-
-
-
-
-

@@ -1,6 +1,6 @@
 # AM-DR Energy Model:
 
-This is implementation of our paper "Quality-based and Energy-efficient Data Communication for the Internet of Things (IoT) Networks" that has been accepted *(to appear)* at IEEE Internet of Things (IoT) Journal, 2019. The preprint is available at:
+This is implementation of our paper "Quality-based and Energy-efficient Data Communication for the Internet of Things (IoT) Networks" that has been accepted *(to appear in)* IEEE Internet of Things (IoT) Journal, 2019. The preprint is available at:
 
 ### Citation
 
